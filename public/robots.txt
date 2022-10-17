@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+https://pokeapi.co/api/v2/pokemon-species/25
+plug in poke ID to get this link an pull flavor text for description
+
+divide hwight by 4.38 to get feet
