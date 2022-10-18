@@ -1,0 +1,25 @@
+.statBar {
+  width: 25vw;
+  height: 12px;
+  background-color: rgba(199, 199, 199, 0.392);
+  border-radius: 12px;
+  box-shadow: 2px 2px 12px rgba(100, 100, 100, 0.416);
+}
+.innerStatBar {
+  height: 12px;
+  background-color: rgb(40, 248, 92);
+  border-radius: 12px;
+  width: 72%;
+}
+.stat {
+  /* margin-top: 0px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.stat h4 {
+  text-transform: capitalize;
+  font-size: 12px;
+  width: fit-content;
+  margin-top: 6px;
+}

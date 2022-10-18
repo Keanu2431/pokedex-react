@@ -1,0 +1,17 @@
+.type {
+  /* font-size: 2vw; */
+  /* background-image: linear-gradient(to right, #156ef3, #6fa0e9af); */
+  text-transform: capitalize;
+  width: fit-content;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-bottom: 2vw;
+  border-radius: 12px;
+  background-color: #156ef3;
+  position: relative;
+  right: 0px;
+  z-index: 0;
+  /* float: right; */
+}
+.typeContainer {
+}
