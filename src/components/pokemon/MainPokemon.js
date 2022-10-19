@@ -9,4 +9,5 @@ const MainPokemon = (props) => {
     </div>
   );
 };
+//
 export default MainPokemon;
