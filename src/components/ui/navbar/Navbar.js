@@ -5,7 +5,8 @@ const Navbar = (props) => {
   return (
     <div className={classes.container}>
       <nav className={classes.navbar}>
-        <Logo /> <SearchBar />
+        <Logo />
+        <SearchBar />
       </nav>
     </div>
   );
