@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Evolutions from "./components/pokemon/evolutions/Evolutions";
 import MainPokemon from "./components/pokemon/MainPokemon";
 import Logo from "./components/ui/logo/Logo";
 import Navbar from "./components/ui/navbar/Navbar";
@@ -13,6 +14,7 @@ function App() {
     <>
       <Navbar />
       <MainPokemon main={mainPokemon} />
+      <Evolutions />
     </>
   );
 }
