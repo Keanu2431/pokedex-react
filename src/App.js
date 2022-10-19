@@ -9,12 +9,23 @@ import * as config from "./config";
 
 function App() {
   const [mainPokemon, setMainPokemon] = useState(config.initPoke);
-
+  // const set
+  const updatePoke = async (searchedName) => {
+    console.log(searchedName);
+    const fetchedPoke = await fetch(
+      `https://pokeapi.co/api/v2/pokemon/${searchedName.toLowerCase()}`
+    )
+      .then((i) => i.json())
+      .then((i) => {
+        console.log(i);
+        setMainPokemon(i);
+      });
+  };
   return (
     <>
-      <Navbar />
-      <MainPokemon main={mainPokemon} />
-      <Evolutions />
+      <Navbar main={mainPokemon} queryPoke={updatePoke} />
+      <MainPokemon stats={mainPokemon.stats} main={mainPokemon} />
+      {/* <Evolutions evolveOne={config.evolveFromOne} /> */}
     </>
   );
 }

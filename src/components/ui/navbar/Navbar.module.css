@@ -7,11 +7,68 @@
   margin-bottom: 15%;
   position: fixed;
   /* background-image: linear-gradient(to right, #4788e961, #6fa0e9af); */
-  background-image: linear-gradient(to right, #4787e9, #6fa0e9af);
+  background-image: linear-gradient(to right, #4787e9, #9dbeec);
 
   padding-right: 10%;
-  z-index: 9000;
 }
+/* types */
+.water {
+  background-image: linear-gradient(to right, #4787e9, #9dbeec);
+}
+.steel {
+  background-image: linear-gradient(to right, #9fa2a7, #d0d3d781);
+}
+.normal {
+  background-image: linear-gradient(to right, #bbbfc6, #e6ebf07e);
+}
+.ghost {
+  background-image: linear-gradient(to right, #5146e4, #9096e7af);
+}
+.dragon {
+  background-image: linear-gradient(to right, #3e31f2, #525cebaf);
+}
+.dark {
+  background-image: linear-gradient(to right, #17152e, #131422af);
+}
+.rock {
+  background-image: linear-gradient(to right, #e9bb47, #e9cb6faf);
+}
+.psychic {
+  background-image: linear-gradient(to right, #e947e1, #e96fd7af);
+}
+.fairy {
+  background-image: linear-gradient(to right, #f2a2ee, #f3c2ebaf);
+}
+.bug {
+  background-image: linear-gradient(to right, #a0e947, #a6e96faf);
+}
+.flying {
+  background-image: linear-gradient(to right, #7da9f6db, #7dbaf69a);
+}
+.poison {
+  background-image: linear-gradient(to right, #9547e9, #ba6fe9af);
+}
+.ground {
+  background-image: linear-gradient(to right, #f1d47b, #efe38caf);
+}
+
+.fighting {
+  background-image: linear-gradient(to right, #b4610e, #c67321c6);
+}
+
+.ice {
+  background-image: linear-gradient(to right, #47d1e9, #6fdde9af);
+}
+.electric {
+  background-image: linear-gradient(to right, #cac83d, #babc47af);
+}
+.fire {
+  background-image: linear-gradient(to right, #e94747, #e96f6faf);
+}
+.grass {
+  background-image: linear-gradient(to right, #118d11, #228822ad);
+}
+/* types */
 .container {
   background-color: black;
 }

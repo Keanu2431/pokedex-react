@@ -4,8 +4,84 @@
   width: 100%;
   border-radius: 56px;
 }
+/* types */
+.water {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #4787e9, #6fa0e9af);
+}
+.steel {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #9fa2a7, #d0d3d7af);
+}
+.normal {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #bbbfc6, #e6ebf0af);
+}
+.ghost {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #5247e9, #6f77e9af);
+}
+.dragon {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #3e31f2, #525cebaf);
+}
+.dark {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #17152e, #131422af);
+}
+.rock {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #e9bb47, #e9cb6faf);
+}
+.psychic {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #e947e1, #e96fd7af);
+}
+.fairy {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #f2a2ee, #f3c2ebaf);
+}
+.bug {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #a0e947, #a6e96faf);
+}
+.flying {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #7da9f6db, #7dbaf69a);
+}
+.poison {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #9547e9, #ba6fe9af);
+}
+.ground {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #f1d47b, #efe38caf);
+}
+
+.fighting {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #b4610e, #c67321c6);
+}
+
+.ice {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #47d1e9, #6fdde9af);
+}
+.electric {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #cac83d, #babc47af);
+}
+.fire {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #e94747, #e96f6faf);
+}
+.grass {
+  padding-bottom: 5%;
+  background-image: linear-gradient(to right, #118d11, #228822ad);
+}
+/* types */
 .mainCard {
-  padding-top: 30%;
+  padding-top: 25%;
   width: 80%;
   /* display: grid; */
   margin: 0 auto;
