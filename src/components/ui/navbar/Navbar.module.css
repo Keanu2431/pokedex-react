@@ -6,7 +6,9 @@
   margin-left: 1vw;
   margin-bottom: 15%;
   position: fixed;
+  /* background-image: linear-gradient(to right, #4788e961, #6fa0e9af); */
   background-image: linear-gradient(to right, #4787e9, #6fa0e9af);
+
   padding-right: 10%;
   z-index: 9000;
 }
